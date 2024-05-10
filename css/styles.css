@@ -1283,6 +1283,15 @@ progress {
     width: 33.33333333%;
   }
   .col-lg-5 {
+    color: white;
+    font-size: 14;
+    justify-content:right;
+    margin-left: 45px;
+    margin-top: -300px;
+ 
+   
+    
+    
     flex: 0 0 auto;
     width: 41.66666667%;
   }
