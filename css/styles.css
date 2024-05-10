@@ -1283,6 +1283,15 @@ progress {
     width: 33.33333333%;
   }
   .col-lg-5 {
+    color: white;
+    font-size: 14;
+    justify-content:right;
+    margin-left: 45px;
+    margin-top: -300px;
+ 
+   
+    
+    
     flex: 0 0 auto;
     width: 41.66666667%;
   }
@@ -3769,10 +3778,11 @@ textarea.form-control-lg {
   padding-top: var(--bs-navbar-brand-padding-y);
   padding-bottom: var(--bs-navbar-brand-padding-y);
   margin-right: var(--bs-navbar-brand-margin-end);
-  font-size: var(--bs-navbar-brand-font-size);
+  font-size:280%;
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
   white-space: nowrap;
+  fonte
 }
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
