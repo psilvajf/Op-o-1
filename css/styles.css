@@ -3062,7 +3062,7 @@ textarea.form-control-lg {
 .btn-outline-success3 {
   font-size:20px;
   
-  --bs-btn-color: #0929db;
+  --bs-btn-color: #f7f7fa;
   --bs-btn-border-color: #fd090900;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #fd7403;
@@ -3076,7 +3076,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #198754;
   --bs-gradient: none;
-  background-color:white;
+  background-color:#fd7403;
 }
 
 .btn-outline-info {
