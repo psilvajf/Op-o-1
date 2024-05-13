@@ -3818,7 +3818,7 @@ textarea.form-control-lg {
   padding-top: var(--bs-navbar-brand-padding-y);
   padding-bottom: var(--bs-navbar-brand-padding-y);
   margin-right: var(--bs-navbar-brand-margin-end);
-  font-size:270%;
+  font-size:240%;
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
   white-space: nowrap;
