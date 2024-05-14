@@ -675,6 +675,18 @@ progress {
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
+
+.row2 {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+
 .row > * {
   flex-shrink: 0;
   width: 100%;
@@ -875,6 +887,12 @@ progress {
 .g-4,
 .gx-4 {
   --bs-gutter-x: 1.5rem;
+ 
+}
+
+.gx-400 {
+  --bs-gutter-x: 1.5rem;
+ margin-left: 80px;
 }
 
 .g-4,
@@ -1111,7 +1129,7 @@ progress {
   }
   .col-md-4 {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: 30%;
   }
   .col-md-5 {
     flex: 0 0 auto;
@@ -4260,6 +4278,10 @@ textarea.form-control-lg {
   margin-bottom: var(--bs-card-title-spacer-y);
 }
 
+.card-title2 {
+  margin-top:10px;
+}
+
 .card-subtitle {
   margin-top: calc(-0.5 * var(--bs-card-title-spacer-y));
   margin-bottom: 0;
@@ -4331,7 +4353,11 @@ textarea.form-control-lg {
 .card-img-top {
   border-top-left-radius: var(--bs-card-inner-border-radius);
   border-top-right-radius: var(--bs-card-inner-border-radius);
+  
 }
+
+
+
 
 .card-img,
 .card-img-bottom {
@@ -7636,6 +7662,14 @@ textarea.form-control-lg {
   margin-bottom: 3rem !important;
 }
 
+.my-500 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+  height: 120px;
+  width:90%;
+ margin-left: 90px;
+}
+
 .my-auto {
   margin-top: auto !important;
   margin-bottom: auto !important;
@@ -7835,6 +7869,7 @@ textarea.form-control-lg {
 .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
+ 
 }
 
 .pt-0 {
