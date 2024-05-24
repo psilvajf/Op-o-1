@@ -28,26 +28,24 @@
     </nav>
 
     <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 align-items-center my-5">
-            <div class="col-lg-7">
-                <img id="mainImage" class="img-fluid rounded mb-4 mb-lg-0" src="assets/OnibusEspacial (1).jpg" alt="..." />
-            </div>
-            <div class="col-lg-5">
-                <p>AQUI VAI IR UM TEXTO </p>
-                
-            </div>
-            <script>
-                var images = ['assets/OnibusEspacial (1).jpg', 'assets/AstronautaMarte.jpg', 'assets/Alienigena.jpg'];
-                var currentIndex = 0;
-                var mainImage = document.getElementById('mainImage');
 
-                function changeImage() {
-                    currentIndex = (currentIndex + 1) % images.length;
-                    mainImage.src = images[currentIndex];
-                }
-                setInterval(changeImage, 1000);
-            </script>
+        <div class="row gx-4 gx-lg-5 align-items-center my-5">
+          <div class="col-lg-7">
+                 <video autoplay muted loop id="videoBG">
+                
+                <source src="future.mp4" type="video/mp4"> <!-- Fonte do vídeo -->
+                
+                  </div>
+                <div class="col-lg-5">
+                    <h2 class="font-weight-light">Projeto Ambicioso de Elon Musk</h2>
+                    <p>Sociedade de 1 milhão de pessoas em Marte até 2040</p>
+                    <a class="btn btn-outline-success3" href="desafios.html" style="position: relative;">Leia Mais</a>
+                </div>
+             </div>  
+             </video>
         </div>
+            
+            
     </div>
 
     <footer class="py-5 bg-dark">

@@ -7663,7 +7663,8 @@ textarea.form-control-lg {
 }
 
 .my-500 {
-  margin-top: 3rem !important;
+  
+  margin-top: 200px;
   margin-bottom: 3rem !important;
   height: 120px;
   width:90%;
