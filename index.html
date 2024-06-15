@@ -10,42 +10,94 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/local.css">
 </head>
 <body>
     
 
-    <script src="js/menu.js" id="jvmenu"></script>
     
-
-    <div class="container px-4 px-lg-5">
-
-        <div class="row gx-4 gx-lg-5 align-items-center my-5">
-          <div class="col-lg-7">
-                 <video autoplay muted loop id="videoBG">
-                
-                <source src="future.mp4" type="video/mp4"> <!-- Fonte do vídeo -->
-                
-                  </div>
-                <div class="col-lg-5">
-                    <h2 class="font-weight-light">Projeto Ambicioso de Elon Musk</h2>
-                    <p>Sociedade de 1 milhão de pessoas em Marte até 2040</p>
-                    <a class="btn btn-outline-success3" href="desafios.html" style="position: relative;">Leia Mais</a>
-                </div>
-             </div>  
-             </video>
-        </div>
-            
-            
-    </div>
+    
+    <div class="banner">
         
+        <video autoplay muted loop>
+            <source src="future.mp4" type="video/mp4">
+            
+        </video>
+        <div class="content">
+     <h1><nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="font-size: 20px;">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html">Colonização em Marte</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="btn btn-outline-success" aria-current="page" href="index.html">Início</a></li>
+                            <li class="nav-item"><a class="btn btn-outline-success" href="tecnologias.html">Tecnologias</a></li>
+                            <li class="nav-item"><a class="btn btn-outline-success" href="desafios.html">Desafios</a></li>
+                            <li class="nav-item"><a class="btn btn-outline-success" href="contato.html">Contato</a></li>
+                            <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
+                        </ul>
+                    </div>
+                    
+                </div>
+        </nav>
+    </h1>
+            <h5 style="color: white;">Projeto Ambicioso de Elon Musk</h5>
+            <h5 style="color: white;">Sociedade de 1 milhão de pessoas em Marte até 2040</h5>
+            <a class="btn btn-outline-success3" href="desafios.html" style="position: relative;">Leia Mais</a>
+            
+        </div>
+    </div>
+
+   <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div>
+                
+                
+                <input type="text" class="text" placeholder="Usuário">
+                
+                <input type="password" class="pass" placeholder="Senha">
+            
+                <input type="submit" aria-label="ENTRAR" class="entrar" value="ENTRAR" >
+                <input type="submit" aria-label="CANCELAR" class="cancelar" value="CANCELAR" >
+            
+            
+            
+            
+            
+            </div>
+            
+        </div>
+        <div class="modal-footer">
+          <p>Ainda não tem conta ?</p>
+          <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#cadastro1">Cadastre-se</button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+        
+
+
+
+
+
+
  
-        <div class="card text-white bg-secondary my-500 py-4 text-center">
+    <div class="card text-white bg-secondary my-5 py-4 text-center">
             <div class="card-body"><p class="text-white m-0" ><h5>"Marte, o próximo horizonte da humanidade, aguarda corajosos pioneiros para desvendar seus mistérios e expandir os limites da nossa civilização."</h5></p></div>
         </div>
 
-        <div class="row gx-4 gx-lg-5">
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
+        
+        <div class="card-group">
+            <div class="card">
+                
                     
                     <div class="card-body">
                         <iframe class="card-img-top" src="https://www.youtube.com/embed/LuZto_5HRxU" title="Porque NINGUÉM vai colonizar MARTE (ainda)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen height="300"></iframe>
@@ -54,31 +106,31 @@
                             Veja o vídeo para entender e aprofundar os 4 motivos principais do porque ninguém vai colonizar Marte, ou o espaço, em um futuro próximo.</p>
                     </div>
                     <div class="card-footer"><a class="btn btn-outline-success2" data-bs-toggle="modal" data-bs-target="#exampleModal1" href="#!">Leia Mais</a></div>
-                </div>
+                
             </div>
 
 
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
+            <div class="card">
+               
                     <img class="card-img-top" src="assets/Alienigena.jpg" alt="Imagem de capa do card">
                     <div class="card-body">
                         <h3 class="card-title">O que acontece se você respirar o ar de Marte ?</h3>
                         <p class="card-text">O oxigênio é crucial para a manutenção da vida humana, e existe em bastante quantidade na Terra. Mas é possível respirar o ar de Marte?</p>
                     </div>
                     <div class="card-footer"><a class="btn btn-outline-success2" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#!">Leia Mais</a></div>
-                </div>
+               
             </div>
 
 
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
+            <div class="card">
+                
                     <img class="card-img-top" src="assets/OnibusEspacial (1).jpg" alt="Imagem de capa do card">
                     <div class="card-body">
                         <h3 class="card-title">Terceira Pergunta</h3>
                         <p class="card-text">Texto Exemplo</p>
                     </div>
                     <div class="card-footer"><a class="btn btn-outline-success2" data-bs-toggle="modal" data-bs-target="#exampleModal3" href="#!">Leia Mais</a></div>
-                </div>
+                
             </div>
         </div>
     </div>

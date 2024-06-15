@@ -8,6 +8,8 @@ document.write(`
                     <li class="nav-item"><a class="btn btn-outline-success" aria-current="page" href="index.html">Início</a></li>
                     <li class="nav-item"><a class="btn btn-outline-success" href="tecnologias.html">Tecnologias</a></li>
                     <li class="nav-item"><a class="btn btn-outline-success" href="desafios.html">Desafios</a></li>
+                    <li class="nav-item"><a class="btn btn-outline-success" href="contato.html">Contato</a></li>
+                    
                 </ul>
             </div>
             
