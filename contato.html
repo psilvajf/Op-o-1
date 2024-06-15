@@ -9,27 +9,42 @@
 	<title>Marte - Astronomia</title>
 	<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 	<link href="css/styles.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/local.css">
 </head>
 
 <body>
 	<script src="js/menu.js" id="jvmenu"></script>
 
+	<br>
+         <div class="centralizar" id="divcontato">
+            <div>
+               <h4>Informações de contato:</h4>
+               <a href="#" target="_blank"><img class="bordasocial" src="assets/img/what.jpg" width="40px" height="40px"></a> &nbsp  &nbsp
+               <a href="#" target="_blank"><img class="bordasocial" src="assets/img/insta.jpg" width="40px" height="40px"></a> &nbsp  &nbsp
+               <a href="#" target="_blank"><img class="bordasocial" src="assets/img/linkd.jpg" width="40px" height="40px"></a>
+            </div>
+            <br><br>
+            <div>
+               <h6>Entre em contato</h6>
+               <form action="contato.html" id="envio">
+                  <input class="borda"   placeholder="Digite seu nome" type="text" id="ipt_nome" name="ipt_nome">
+                  <br><br>
+                  <input class="borda"  placeholder="Email" type="email" id="ipt_email" name="ipt_email"><br><br>
+                  <select class="borda"  tabindex="1" id="assunto" name="input[3|Assunto]" aria-required="true">
+                     <option value="" selected="" disabled="">Assunto *</option>
+                     <option value="Dúvida">Dúvida</option>
+                     <option value="Orçamento">Projetos</option>
+                     <option value="Serviços">Serviços</option>
+                  </select>
+                  <br>
+                  <br>
+                  <br><br>
+                  <input id="bordabotao1" type="submit" value="Enviar" class="btn btn-warning" id="campobotao1"> 
+                  <input id="bordabotao2" type="reset" value="Cancelar" class="btn btn-warning" id="campobotao2">
+               </form>
+            </div>
+         </div>
 	
-
-
-
-
-
-
-
-
-
-
-	
-	
-	<footer class="container">
-		<p></p>
-	</footer>
 	<!-- Principal JavaScript do Bootstrap
       ================================================== -->
 	<!-- Foi colocado no final para a página carregar mais rápido -->
