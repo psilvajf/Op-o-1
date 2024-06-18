@@ -1,5 +1,5 @@
 document.write(`
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="font-size: 20px;">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="font-size: 13px;">
         <div class="container px-5">
             <a class="navbar-brand" href="index.html">Colonização em Marte</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
